@@ -1,6 +1,10 @@
 package com.example.contacts
 
-data class contactData(
-    var name:String,
+data class ContactData(
+    var names:String,
+    var avatar:String,
+    var number:String,
+    var email:String
+
 
 )
